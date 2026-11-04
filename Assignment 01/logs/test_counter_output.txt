@@ -1,0 +1,75 @@
+Date: Wed Nov  4 06:51:17 UTC 2026
+Command: sh ./test_counter.sh
+Initial proc stats:
+counter_value: 0
+total_reads: 0
+total_writes: 0
+total_increments: 0
+total_resets: 0
+Before set-to-100:
+counter_value: 1
+total_reads: 1
+total_writes: 0
+total_increments: 1
+total_resets: 0
+After set-to-100:
+counter_value: 100
+total_reads: 1
+total_writes: 1
+total_increments: 1
+total_resets: 0
+After reset-to-zero:
+counter_value: 0
+total_reads: 2
+total_writes: 2
+total_increments: 2
+total_resets: 1
+Final proc stats:
+counter_value: 1
+total_reads: 3
+total_writes: 2
+total_increments: 3
+total_resets: 1
+asgn1: ioctl RESET_BUFFER
+asgn1: released
+asgn1: opened
+asgn1: ioctl unknown command=0x802c542a
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl GET_STATS
+asgn1: released
+asgn1: opened
+asgn1: ioctl GET_VERSION
+asgn1: released
+asgn1: opened
+asgn1: ioctl unknown command=0xa163
+asgn1: released
+asgn1: opened
+asgn1: ioctl SET_MODE=0
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl SET_MODE=1
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl RESET_BUFFER
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: cleanup complete
+counter: registered /dev/counter and /proc/counter_info
+counter: cleanup complete
+PASS: misc registration, read/increment, write/reset, validation, and proc stats.
+
+Exit status: 0

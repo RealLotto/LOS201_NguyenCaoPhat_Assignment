@@ -1,0 +1,23 @@
+# Generated kernel module objects and binaries
+*.ko
+*.o
+*.mod
+*.mod.c
+*.order
+*.symvers
+.*.cmd
+
+# Generated userspace executables
+/Assignment 01/task1_ioctl/asgn1_test
+/Assignment 02/app/sms_app
+/Assignment 02/app/sms_app_x86
+
+# Runtime evidence is ignored by default; reviewed logs may be explicitly tracked
+/Assignment 01/logs/*
+/Assignment 01/bao_cao/*.pdf
+/Assignment 01/*.tar.gz
+/Assignment 02/logs/*
+/Assignment 02/output/*
+/Assignment 02/demo/*
+/Assignment 02/bao_cao/*.pdf
+/Assignment 02/*.tar.gz

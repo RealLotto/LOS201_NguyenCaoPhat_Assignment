@@ -1,0 +1,7 @@
+Manual system-mode GDB session (QEMU host port 1235)
+Breakpoint: apps/buggy_app.c:10 if i == len
+Stopped in process_data(): i=5, len=5
+Out-of-bounds read: data[5]=418247424 (one run; undefined and may vary)
+Sum after the read: 418247574 (one run)
+Backtrace: process_data() -> main()
+ARM registers: pc=0x10480, sp=0x7efffcd8, lr=0x10637

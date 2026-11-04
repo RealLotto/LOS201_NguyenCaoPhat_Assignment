@@ -1,0 +1,13 @@
+The target architecture is set to "arm".
+0x0001036c in _start ()
+Catchpoint 1 (signal SIGSEGV)
+
+Catchpoint 1 (signal SIGSEGV), 0x000104d0 in dereference_null () at apps/buggy_app.c:19
+19	    *value = 1;
+$1 = (volatile int *) 0x0
+#0  0x000104d0 in dereference_null () at apps/buggy_app.c:19
+#1  0x000105fe in main (argc=3, argv=0x40800e24) at apps/buggy_app.c:57
+pc             0x104d0             0x104d0 <dereference_null+24>
+sp             0x40800c80          0x40800c80
+lr             0x17899             96409
+[Inferior 1 (process 1) detached]

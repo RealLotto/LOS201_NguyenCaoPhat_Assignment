@@ -1,0 +1,7 @@
+usr/bin/perf_target_arm
+usr/bin/gdbserver
+usr/bin/test_driver.sh
+usr/bin/leaky_app_arm
+usr/bin/test_procfs.sh
+usr/bin/buggy_app
+lib/modules/5.15.0/lab2_driver.ko

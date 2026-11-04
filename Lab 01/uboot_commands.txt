@@ -1,0 +1,12 @@
+# Type inside the U-Boot shell (=>) after ./06_boot_uboot.sh. Press Enter early to stop autoboot.
+version
+bdinfo
+printenv
+setenv bootargs 'console=ttyAMA0,115200 root=/dev/ram0 rw init=/sbin/init mem=512M'
+printenv bootargs
+setenv bootcmd 'bootz 0x60100000 0x64000000 0x60000000'
+printenv bootcmd
+saveenv
+# QEMU has no persistent environment storage; saveenv may fail with a flash
+# sector-boundary error even though the variables were set in this session.
+# Exit QEMU: Ctrl+A then X

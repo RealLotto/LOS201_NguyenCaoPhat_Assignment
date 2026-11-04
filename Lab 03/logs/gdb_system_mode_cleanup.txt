@@ -1,0 +1,4 @@
+kill "$(cat /tmp/lab3-gdbserver.pid)" 2>/dev/null || true; wait "$(cat /tmp/
+lab3-gdbserver.pid)" 2>/dev/null || true
+[1]+  Done                       gdbserver 0.0.0.0:1234 /usr/bin/buggy_app --case oob 1>/tmp/lab3-gdbserver.log 2>&1
+/ # 

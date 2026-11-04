@@ -1,0 +1,9 @@
+filename:       /home/nc-phat/Documents/Lab/lab2_files/driver/lab2_driver.ko
+version:        1.0
+description:    LAB-02 character device with procfs and sysfs
+author:         NguyenCaoPhat (SE201044)
+license:        GPL
+srcversion:     A1302FFAA8EB7FC3BFB4147
+depends:        
+name:           lab2_driver
+vermagic:       5.15.0 SMP mod_unload ARMv7 p2v8 

@@ -1,0 +1,11 @@
+# Type inside the BusyBox shell after ./08_boot_full.sh (log each output for the report)
+uname -a
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep -E 'processor|model|Features'
+cat /proc/meminfo | head -5
+ls /dev
+mount
+ps
+cat /sys/devices/system/cpu/possible
+# Q5: also run ./08_boot_full.sh 1 and compare the boot logs with ./08_boot_full.sh 2
+# Exit QEMU: Ctrl+A then X

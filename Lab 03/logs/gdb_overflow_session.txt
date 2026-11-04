@@ -1,0 +1,16 @@
+The target architecture is set to "arm".
+0x0001036c in _start ()
+Breakpoint 1 at 0x1053a: file apps/buggy_app.c, line 36.
+
+Breakpoint 1, calculate (a=100000, b=100000) at apps/buggy_app.c:36
+36	    volatile int result = a * b;
+$1 = 100000
+$2 = 100000
+37	    printf("calculate(%d, %d)=%d (INT_MAX=%d)\n", a, b, result, INT_MAX);
+$3 = 1410065408
+#0  calculate (a=100000, b=100000) at apps/buggy_app.c:37
+#1  0x00010696 in main (argc=3, argv=0x40800e24) at apps/buggy_app.c:65
+pc             0x10544             0x10544 <calculate+20>
+sp             0x40800c70          0x40800c70
+lr             0x10697             67223
+[Inferior 1 (process 1) detached]

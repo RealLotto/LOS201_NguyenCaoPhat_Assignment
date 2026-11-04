@@ -1,0 +1,75 @@
+#!/bin/sh
+
+echo '[ LAB-02 ] Starting system initialization...'
+
+mount_if_missing()
+{
+    mountpoint="$1"
+    filesystem="$2"
+    if ! grep -q " $mountpoint " /proc/mounts 2>/dev/null; then
+        if ! mount -t "$filesystem" none "$mountpoint"; then
+            echo "[ LAB-02 ] WARNING: could not mount $filesystem on $mountpoint"
+        fi
+    fi
+}
+
+mount_if_missing /proc proc
+mount_if_missing /sys sysfs
+mount_if_missing /tmp tmpfs
+if ! grep -q ' /dev ' /proc/mounts 2>/dev/null; then
+    if ! mount -t devtmpfs devtmpfs /dev; then
+        echo '[ LAB-02 ] WARNING: devtmpfs unavailable; using initramfs device nodes'
+    fi
+fi
+
+hostname embedded-lab2
+if [ -w /proc/sys/kernel/hostname ]; then
+    echo embedded-lab2 > /proc/sys/kernel/hostname
+fi
+
+LAB2_MODULE_REQUIRED=0
+if [ -r /etc/lab2.conf ]; then
+    . /etc/lab2.conf
+fi
+
+module_error()
+{
+    message="$1"
+    if [ "$LAB2_MODULE_REQUIRED" = 1 ]; then
+        echo "[ LAB-02 ] FATAL: $message"
+        echo '[ LAB-02 ] Boot is paused in a rescue shell; fix the module and reboot.'
+        while :; do
+            /bin/sh -i
+            echo '[ LAB-02 ] Rescue shell exited; init remains paused. Reboot after fixing the module.'
+            sleep 1
+        done
+    fi
+    echo "[ LAB-02 ] WARNING: $message; continuing boot without the driver"
+}
+
+echo '[ LAB-02 ] Loading lab2_driver module...'
+if grep -q '^lab2_driver ' /proc/modules; then
+    echo '[ LAB-02 ] lab2_driver already loaded'
+elif [ ! -f /lib/modules/5.15.0/lab2_driver.ko ]; then
+    module_error 'lab2_driver.ko was not found'
+elif insmod /lib/modules/5.15.0/lab2_driver.ko; then
+    echo '[ LAB-02 ] lab2_driver loaded OK'
+else
+    module_error 'insmod lab2_driver failed (see dmesg for details)'
+fi
+
+if grep -q '^lab2_driver ' /proc/modules; then
+    if [ ! -c /dev/lab2 ]; then
+        rm -f /dev/lab2
+        if ! mknod -m 666 /dev/lab2 c 240 0; then
+            echo '[ LAB-02 ] WARNING: could not create /dev/lab2'
+        fi
+    fi
+    chmod 666 /dev/lab2 2>/dev/null || true
+    echo '[ LAB-02 ] /dev/lab2 ready (major=240, minor=0)'
+fi
+
+echo '[ LAB-02 ] System initialization complete!'
+echo '  -> Run test_driver.sh to test the character device'
+echo '  -> Run test_procfs.sh to test procfs and sysfs'
+echo '  -> cat /proc/lab2_info to view driver statistics'

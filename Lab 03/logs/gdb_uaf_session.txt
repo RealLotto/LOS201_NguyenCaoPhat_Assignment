@@ -1,0 +1,13 @@
+The target architecture is set to "arm".
+0x0001036c in _start ()
+Breakpoint 1 at 0x1065c: file apps/buggy_app.c, line 63.
+
+Breakpoint 1, main (argc=3, argv=0x40800e24) at apps/buggy_app.c:63
+63	        printf("message=%s\n", message);
+$1 = 0x84990 "\204"
+0x84990:	"\204"
+#0  main (argc=3, argv=0x40800e24) at apps/buggy_app.c:63
+pc             0x1065c             0x1065c <main+192>
+sp             0x40800c90          0x40800c90
+lr             0x2                 2
+[Inferior 1 (process 1) detached]

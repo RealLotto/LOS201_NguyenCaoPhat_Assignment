@@ -1,0 +1,9 @@
+Date: 2026-11-04T10:32:51+07:00
+Command: make helper
+
+Exit status: 0
+
+--- stdout ---
+cc -std=c11 -Wall -Wextra -O2 -o asgn1_test asgn1_test.c
+
+--- stderr ---

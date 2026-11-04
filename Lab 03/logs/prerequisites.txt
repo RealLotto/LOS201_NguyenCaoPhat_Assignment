@@ -1,0 +1,4 @@
+LAB-01/LAB-02 compatibility: PASS
+Kernel release: 5.15.0
+LAB-01 and LAB-02 zImage/DTB: identical
+LAB-02 initramfs includes lab2_driver.ko for 5.15.0

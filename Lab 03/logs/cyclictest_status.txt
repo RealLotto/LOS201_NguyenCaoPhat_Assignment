@@ -1,0 +1,1 @@
+PASS: cyclictest completed with SCHED_FIFO priority 80, 4 threads, 10,000 loops each. Results are in cyclictest_standard.txt and hist_standard.txt. No PREEMPT_RT comparison was run.

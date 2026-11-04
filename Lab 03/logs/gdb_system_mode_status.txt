@@ -1,0 +1,1 @@
+PASS: host gdb-multiarch connected through QEMU port 1238 to guest gdbserver :1234 and stopped at i=5.

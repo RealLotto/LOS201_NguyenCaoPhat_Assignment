@@ -1,0 +1,6 @@
+PASS: LAB-01 kernel/DTB booted the LAB-03 initramfs.
+PASS: LAB-02 character-device test passed.
+PASS: LAB-02 procfs/sysfs test passed.
+PASS: LAB-03 ARM fixed-memory and profiling applications ran.
+PASS: ARM gdbserver started and listened on guest TCP port 1234.
+PASS: host gdb-multiarch connected through QEMU port 1238 to guest gdbserver :1234 and stopped at i=5.

@@ -1,0 +1,1 @@
+PASS: logs/latency_histogram.png compares the standard and PREEMPT_RT histograms using normalized percentages, a typical-latency view, and a tail-latency view.

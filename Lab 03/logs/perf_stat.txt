@@ -1,0 +1,14 @@
+# started on Wed Nov  4 22:29:49 2026
+
+
+ Performance counter stats for '/home/nc-phat/Documents/Lab/lab3_files/apps/perf_target':
+
+   <not supported>      cpu_core/cpu-cycles/u            #      nan GHz  cycles_frequency     
+   <not supported>      cpu_atom/cpu-cycles/u            #      nan GHz  cycles_frequency     
+
+       0.011779724 seconds time elapsed
+
+       0.009915000 seconds user
+       0.001983000 seconds sys
+
+

@@ -1,0 +1,1 @@
+perf record unavailable or denied; see perf_record_app_output.txt.

@@ -1,0 +1,24 @@
+Date: 2026-11-04T20:06:01+07:00
+Host: Linux nc-phat-IdeapadGaming3-15IAH7 7.0.0-42-generic #42-Ubuntu SMP PREEMPT_DYNAMIC Thu Oct 15 08:06:44 UTC 2026 x86_64 GNU/Linux
+
+Kernel preemption settings:
+CONFIG_PREEMPT_BUILD=y
+CONFIG_PREEMPT_LAZY=y
+CONFIG_PREEMPT_COUNT=y
+CONFIG_PREEMPT_DYNAMIC=y
+CONFIG_PREEMPT_RCU=y
+CONFIG_PREEMPT_NOTIFIERS=y
+
+Tools on host:
+gcc                         /usr/bin/gcc
+arm-linux-gnueabihf-gcc     /usr/bin/arm-linux-gnueabihf-gcc
+qemu-system-arm             /usr/bin/qemu-system-arm
+gdb-multiarch               unavailable
+gdbserver                   unavailable
+valgrind                    unavailable
+strace                      /usr/bin/strace
+perf                        /usr/bin/perf
+cyclictest                  unavailable
+gnuplot                     unavailable
+
+perf_event_paranoid: 4

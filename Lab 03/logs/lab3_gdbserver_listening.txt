@@ -1,0 +1,8 @@
+ifconfig eth0 10.0.2.15 netmask 255.255.255.0 up; gdbserver 0.0.0.0:1234 /us
+r/bin/buggy_app --case oob >/tmp/lab3-gdbserver.log 2>&1 & echo $! >/tmp/lab3-gd
+bserver.pid; sleep 1; cat /tmp/lab3-gdbserver.log
+Generic PHY 4e000000.ethernet-ffffffff:01: attached PHY driver (mii_bus:phy_addr=4e000000.ethernet-ffffffff:01, irq=POLL)
+smsc911x 4e000000.ethernet eth0: SMSC911x/921x identified at 0xa08b0000, IRQ: 30
+Process /usr/bin/buggy_app created; pid = 117
+Listening on port 1234
+/ # 

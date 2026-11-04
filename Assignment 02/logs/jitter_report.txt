@@ -1,0 +1,10 @@
+scheduler=SCHED_FIFO
+samples=119
+min_us=157
+avg_us=1105.36
+max_us=3095
+p99_us=2913
+histogram_0_100_us=0
+histogram_100_500_us=33
+histogram_500_1000_us=26
+histogram_over_1000_us=60

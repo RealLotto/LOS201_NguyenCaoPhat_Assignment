@@ -1,0 +1,20 @@
+test_driver.sh
+=== LAB-02: Device Driver Test ===
+[1] lab2_driver was loaded automatically by rcS
+[2] Loaded module:
+lab2_driver 16384 0 - Live 0x7f000000 (O)
+crw-rw-rw-    1 root     0         240,   0 Nov  4 15:44 /dev/lab2
+[3] Write/read test:
+  Read back: [Hello from userspace, LAB-02!]
+[4] Multiple write/read test:
+  Message_1
+  Message_2
+input: ImExPS/2 Generic Explorer Mouse as /devices/platform/bus@40000000/bus@40000000:motherboard-bus@40000000/bus@40000000:motherboard-bus@40000000:iofpga@7,00000000/10007000.kmi/serio1/input/input2
+  Message_3
+[5] Recent driver messages:
+lab2_driver: loading out-of-tree module taints kernel.
+lab2_driver: initializing module
+lab2_driver: loaded, major=240
+lab2_driver: /proc/lab2_info created
+=== Test PASSED ===
+/ # 

@@ -1,0 +1,15 @@
+The target architecture is set to "arm".
+Reading /usr/lib/debug/.build-id/1f/abc4371d51f77831b76085e2c12b820fe139cb.debug from remote target...
+0x0001036c in _start ()
+Breakpoint 1 at 0x10480: file apps/buggy_app.c, line 10.
+
+Breakpoint 1, process_data (data=0x7efffd00, len=5) at apps/buggy_app.c:10
+10	        sum += data[i];
+$1 = 5
+#0  process_data (data=0x7efffd00, len=5) at apps/buggy_app.c:10
+#1  0x00010636 in main (argc=3, argv=0x7efffe84) at apps/buggy_app.c:60
+pc             0x10480             0x10480 <process_data+20>
+sp             0x7efffcd8          0x7efffcd8
+lr             0x10637             67127
+[Inferior 1 (process 117) detached]
+warning: File transfers from remote targets can be slow. Use "set sysroot" to access files locally instead.

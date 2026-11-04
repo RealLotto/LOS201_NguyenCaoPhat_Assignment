@@ -1,0 +1,4 @@
+read_count: 119
+last_temperature: 20.9 C
+last_humidity: 64.1 %
+uptime_seconds: 60

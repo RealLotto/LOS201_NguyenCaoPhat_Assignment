@@ -1,0 +1,7 @@
+ls -l /usr/bin/buggy_app /usr/bin/leaky_app_arm /usr/bin/perf_target_arm /li
+b/modules/5.15.0/lab2_driver.ko
+-rw-r--r--    1 root     0           154204 Nov  4 15:38 /lib/modules/5.15.0/lab2_driver.ko
+-rwxr-xr-x    1 root     0           495024 Nov  4 15:38 /usr/bin/buggy_app
+-rwxr-xr-x    1 root     0           492184 Nov  4 15:38 /usr/bin/leaky_app_arm
+-rwxr-xr-x    1 root     0           498084 Nov  4 15:38 /usr/bin/perf_target_arm
+/ # 

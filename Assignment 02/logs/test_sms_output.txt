@@ -1,0 +1,2 @@
+PASS: SMS driver, proc stats, app threads, and SIGINT shutdown.
+Review collected evidence in: /root/los-tests/Assignment 02/logs

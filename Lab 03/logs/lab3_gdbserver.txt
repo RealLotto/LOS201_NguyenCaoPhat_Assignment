@@ -1,0 +1,6 @@
+gdbserver --version
+GNU gdbserver (Ubuntu 12.1-0ubuntu1~22.04.2) 12.1
+Copyright (C) 2022 Free Software Foundation, Inc.
+gdbserver is free software, covered by the GNU General Public License.
+This gdbserver was configured as "arm-linux-gnueabihf"
+/ # 

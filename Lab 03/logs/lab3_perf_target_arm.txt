@@ -1,0 +1,7 @@
+perf_target_arm
+CPU workload
+Result: 4573233266.430
+Linear search workload
+File I/O workload
+Done
+/ # 

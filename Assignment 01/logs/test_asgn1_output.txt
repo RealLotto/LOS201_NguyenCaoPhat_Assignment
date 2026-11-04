@@ -1,0 +1,52 @@
+Date: Wed Nov  4 06:51:10 UTC 2026
+Command: sh /tmp/test_asgn1_guest.sh
+open_count=4
+write_count=1
+read_count=1
+buffer_len=5
+last_write_size=5
+version=asgn1_driver v1.0 - SE201044
+unknown ioctl: ENOTTY
+PASS: ASGN1 reset, stats, modes, version, and unknown ioctl tests.
+asgn1: registered major=242; create /dev/asgn1 with mknod
+asgn1: opened
+asgn1: ioctl RESET_BUFFER
+asgn1: released
+asgn1: opened
+asgn1: ioctl unknown command=0x802c542a
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl GET_STATS
+asgn1: released
+asgn1: opened
+asgn1: ioctl GET_VERSION
+asgn1: released
+asgn1: opened
+asgn1: ioctl unknown command=0xa163
+asgn1: released
+asgn1: opened
+asgn1: ioctl SET_MODE=0
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl SET_MODE=1
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: opened
+asgn1: ioctl RESET_BUFFER
+asgn1: released
+asgn1: opened
+asgn1: released
+asgn1: cleanup complete
+
+Exit status: 0

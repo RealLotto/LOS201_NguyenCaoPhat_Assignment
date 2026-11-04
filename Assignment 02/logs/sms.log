@@ -1,0 +1,256 @@
+timestamp=2026-11-04T06:31:33.950Z THREAD logger started
+timestamp=2026-11-04T06:31:33.952Z THREAD sensor started
+timestamp=2026-11-04T06:31:33.952Z THREAD processor started
+timestamp=2026-11-04T06:31:33.953Z THREAD alert started
+timestamp=2026-11-04T06:31:34.424Z monotonic_ms=123782 ALERT type=HUMID_HIGH value=87.7 threshold=80.0
+timestamp=2026-11-04T06:31:34.424Z monotonic_ms=123782 SAMPLE temperature=18.7 humidity=87.7
+timestamp=2026-11-04T06:31:34.921Z monotonic_ms=124283 ALERT type=HUMID_HIGH value=89.0 threshold=80.0
+timestamp=2026-11-04T06:31:34.922Z monotonic_ms=124283 SAMPLE temperature=28.7 humidity=89.0
+timestamp=2026-11-04T06:31:34.925Z monotonic_ms=124283 ALERT type=TEMP_SPIKE value=10.0 threshold=5.0
+timestamp=2026-11-04T06:31:35.424Z monotonic_ms=124784 ALERT type=TEMP_SPIKE value=9.6 threshold=5.0
+timestamp=2026-11-04T06:31:35.425Z monotonic_ms=124784 SAMPLE temperature=19.1 humidity=61.4
+timestamp=2026-11-04T06:31:35.921Z monotonic_ms=125284 ALERT type=TEMP_SPIKE value=10.4 threshold=5.0
+timestamp=2026-11-04T06:31:35.922Z monotonic_ms=125284 SAMPLE temperature=29.5 humidity=40.4
+timestamp=2026-11-04T06:31:36.423Z monotonic_ms=125785 ALERT type=TEMP_SPIKE value=10.5 threshold=5.0
+timestamp=2026-11-04T06:31:36.424Z monotonic_ms=125785 SAMPLE temperature=40.0 humidity=70.2
+timestamp=2026-11-04T06:31:36.923Z monotonic_ms=126286 SAMPLE temperature=39.8 humidity=31.1
+timestamp=2026-11-04T06:31:37.426Z monotonic_ms=126787 ALERT type=HUMID_HIGH value=87.9 threshold=80.0
+timestamp=2026-11-04T06:31:37.426Z monotonic_ms=126787 SAMPLE temperature=25.1 humidity=87.9
+timestamp=2026-11-04T06:31:37.427Z monotonic_ms=126787 ALERT type=TEMP_SPIKE value=14.7 threshold=5.0
+timestamp=2026-11-04T06:31:37.925Z monotonic_ms=127288 SAMPLE temperature=33.3 humidity=38.0
+timestamp=2026-11-04T06:31:37.926Z monotonic_ms=127288 ALERT type=TEMP_SPIKE value=8.2 threshold=5.0
+timestamp=2026-11-04T06:31:38.426Z monotonic_ms=127788 ALERT type=HUMID_HIGH value=84.5 threshold=80.0
+timestamp=2026-11-04T06:31:38.427Z monotonic_ms=127788 SAMPLE temperature=37.9 humidity=84.5
+timestamp=2026-11-04T06:31:38.926Z monotonic_ms=128289 ALERT type=TEMP_HIGH value=42.9 threshold=40.0
+timestamp=2026-11-04T06:31:38.928Z monotonic_ms=128289 SAMPLE temperature=42.9 humidity=65.8
+timestamp=2026-11-04T06:31:39.426Z monotonic_ms=128789 SAMPLE temperature=28.6 humidity=55.7
+timestamp=2026-11-04T06:31:39.427Z monotonic_ms=128789 ALERT type=TEMP_SPIKE value=14.3 threshold=5.0
+timestamp=2026-11-04T06:31:39.928Z monotonic_ms=129290 SAMPLE temperature=44.5 humidity=37.7
+timestamp=2026-11-04T06:31:39.928Z monotonic_ms=129290 ALERT type=TEMP_HIGH value=44.5 threshold=40.0
+timestamp=2026-11-04T06:31:39.929Z monotonic_ms=129290 ALERT type=TEMP_SPIKE value=15.9 threshold=5.0
+timestamp=2026-11-04T06:31:40.427Z monotonic_ms=129790 SAMPLE temperature=20.7 humidity=50.1
+timestamp=2026-11-04T06:31:40.427Z monotonic_ms=129790 ALERT type=TEMP_SPIKE value=23.8 threshold=5.0
+timestamp=2026-11-04T06:31:40.927Z monotonic_ms=130290 SAMPLE temperature=34.5 humidity=61.9
+timestamp=2026-11-04T06:31:40.927Z monotonic_ms=130290 ALERT type=TEMP_SPIKE value=13.8 threshold=5.0
+timestamp=2026-11-04T06:31:41.426Z monotonic_ms=130790 SAMPLE temperature=38.2 humidity=35.4
+timestamp=2026-11-04T06:31:41.928Z monotonic_ms=131291 SAMPLE temperature=16.1 humidity=56.0
+timestamp=2026-11-04T06:31:41.928Z monotonic_ms=131291 ALERT type=TEMP_SPIKE value=22.1 threshold=5.0
+timestamp=2026-11-04T06:31:42.429Z monotonic_ms=131791 SAMPLE temperature=40.5 humidity=81.4
+timestamp=2026-11-04T06:31:42.429Z monotonic_ms=131791 ALERT type=TEMP_HIGH value=40.5 threshold=40.0
+timestamp=2026-11-04T06:31:42.429Z monotonic_ms=131791 ALERT type=HUMID_HIGH value=81.4 threshold=80.0
+timestamp=2026-11-04T06:31:42.430Z monotonic_ms=131791 ALERT type=TEMP_SPIKE value=24.4 threshold=5.0
+timestamp=2026-11-04T06:31:42.927Z monotonic_ms=132291 SAMPLE temperature=26.9 humidity=46.0
+timestamp=2026-11-04T06:31:42.928Z monotonic_ms=132291 ALERT type=TEMP_SPIKE value=13.6 threshold=5.0
+timestamp=2026-11-04T06:31:43.428Z monotonic_ms=132791 SAMPLE temperature=38.8 humidity=66.5
+timestamp=2026-11-04T06:31:43.429Z monotonic_ms=132791 ALERT type=TEMP_SPIKE value=11.9 threshold=5.0
+timestamp=2026-11-04T06:31:43.930Z monotonic_ms=133292 SAMPLE temperature=26.1 humidity=84.7
+timestamp=2026-11-04T06:31:43.930Z monotonic_ms=133292 ALERT type=HUMID_HIGH value=84.7 threshold=80.0
+timestamp=2026-11-04T06:31:43.931Z monotonic_ms=133292 ALERT type=TEMP_SPIKE value=12.7 threshold=5.0
+timestamp=2026-11-04T06:31:44.430Z monotonic_ms=133792 SAMPLE temperature=41.3 humidity=64.1
+timestamp=2026-11-04T06:31:44.430Z monotonic_ms=133792 ALERT type=TEMP_HIGH value=41.3 threshold=40.0
+timestamp=2026-11-04T06:31:44.431Z monotonic_ms=133792 ALERT type=TEMP_SPIKE value=15.2 threshold=5.0
+timestamp=2026-11-04T06:31:44.930Z monotonic_ms=134293 SAMPLE temperature=28.4 humidity=47.9
+timestamp=2026-11-04T06:31:44.931Z monotonic_ms=134293 ALERT type=TEMP_SPIKE value=12.9 threshold=5.0
+timestamp=2026-11-04T06:31:45.429Z monotonic_ms=134793 SAMPLE temperature=17.5 humidity=60.1
+timestamp=2026-11-04T06:31:45.430Z monotonic_ms=134793 ALERT type=TEMP_SPIKE value=10.9 threshold=5.0
+timestamp=2026-11-04T06:31:45.929Z monotonic_ms=135293 SAMPLE temperature=37.5 humidity=34.0
+timestamp=2026-11-04T06:31:45.930Z monotonic_ms=135293 ALERT type=TEMP_SPIKE value=20.0 threshold=5.0
+timestamp=2026-11-04T06:31:46.429Z monotonic_ms=135793 SAMPLE temperature=20.5 humidity=68.2
+timestamp=2026-11-04T06:31:46.430Z monotonic_ms=135793 ALERT type=TEMP_SPIKE value=17.0 threshold=5.0
+timestamp=2026-11-04T06:31:46.929Z monotonic_ms=136293 SAMPLE temperature=17.3 humidity=33.3
+timestamp=2026-11-04T06:31:47.430Z monotonic_ms=136794 SAMPLE temperature=34.0 humidity=36.7
+timestamp=2026-11-04T06:31:47.431Z monotonic_ms=136794 ALERT type=TEMP_SPIKE value=16.7 threshold=5.0
+timestamp=2026-11-04T06:31:47.931Z monotonic_ms=137295 SAMPLE temperature=24.5 humidity=45.7
+timestamp=2026-11-04T06:31:47.931Z monotonic_ms=137295 ALERT type=TEMP_SPIKE value=9.5 threshold=5.0
+timestamp=2026-11-04T06:31:48.432Z monotonic_ms=137796 SAMPLE temperature=43.3 humidity=50.3
+timestamp=2026-11-04T06:31:48.432Z monotonic_ms=137796 ALERT type=TEMP_HIGH value=43.3 threshold=40.0
+timestamp=2026-11-04T06:31:48.433Z monotonic_ms=137796 ALERT type=TEMP_SPIKE value=18.8 threshold=5.0
+timestamp=2026-11-04T06:31:48.933Z monotonic_ms=138296 SAMPLE temperature=23.4 humidity=57.7
+timestamp=2026-11-04T06:31:48.933Z monotonic_ms=138296 ALERT type=TEMP_SPIKE value=19.9 threshold=5.0
+timestamp=2026-11-04T06:31:49.432Z monotonic_ms=138797 SAMPLE temperature=27.8 humidity=53.2
+timestamp=2026-11-04T06:31:49.934Z monotonic_ms=139297 SAMPLE temperature=40.8 humidity=84.1
+timestamp=2026-11-04T06:31:49.934Z monotonic_ms=139297 ALERT type=TEMP_HIGH value=40.8 threshold=40.0
+timestamp=2026-11-04T06:31:49.936Z monotonic_ms=139297 ALERT type=HUMID_HIGH value=84.1 threshold=80.0
+timestamp=2026-11-04T06:31:49.936Z monotonic_ms=139297 ALERT type=TEMP_SPIKE value=13.0 threshold=5.0
+timestamp=2026-11-04T06:31:50.433Z monotonic_ms=139798 SAMPLE temperature=38.8 humidity=43.6
+timestamp=2026-11-04T06:31:50.936Z monotonic_ms=140299 SAMPLE temperature=30.7 humidity=80.6
+timestamp=2026-11-04T06:31:50.936Z monotonic_ms=140299 ALERT type=HUMID_HIGH value=80.6 threshold=80.0
+timestamp=2026-11-04T06:31:50.936Z monotonic_ms=140299 ALERT type=TEMP_SPIKE value=8.1 threshold=5.0
+timestamp=2026-11-04T06:31:51.436Z monotonic_ms=140799 SAMPLE temperature=44.5 humidity=72.6
+timestamp=2026-11-04T06:31:51.436Z monotonic_ms=140799 ALERT type=TEMP_HIGH value=44.5 threshold=40.0
+timestamp=2026-11-04T06:31:51.437Z monotonic_ms=140799 ALERT type=TEMP_SPIKE value=13.8 threshold=5.0
+timestamp=2026-11-04T06:31:51.935Z monotonic_ms=141299 SAMPLE temperature=44.3 humidity=49.7
+timestamp=2026-11-04T06:31:51.935Z monotonic_ms=141299 ALERT type=TEMP_HIGH value=44.3 threshold=40.0
+timestamp=2026-11-04T06:31:52.435Z monotonic_ms=141799 SAMPLE temperature=25.6 humidity=41.4
+timestamp=2026-11-04T06:31:52.436Z monotonic_ms=141799 ALERT type=TEMP_SPIKE value=18.7 threshold=5.0
+timestamp=2026-11-04T06:31:52.936Z monotonic_ms=142300 SAMPLE temperature=37.4 humidity=46.4
+timestamp=2026-11-04T06:31:52.937Z monotonic_ms=142300 ALERT type=TEMP_SPIKE value=11.8 threshold=5.0
+timestamp=2026-11-04T06:31:53.436Z monotonic_ms=142800 SAMPLE temperature=30.1 humidity=55.4
+timestamp=2026-11-04T06:31:53.437Z monotonic_ms=142800 ALERT type=TEMP_SPIKE value=7.3 threshold=5.0
+timestamp=2026-11-04T06:31:53.936Z monotonic_ms=143300 SAMPLE temperature=20.6 humidity=38.9
+timestamp=2026-11-04T06:31:53.936Z monotonic_ms=143300 ALERT type=TEMP_SPIKE value=9.5 threshold=5.0
+timestamp=2026-11-04T06:31:54.437Z monotonic_ms=143801 SAMPLE temperature=17.7 humidity=57.9
+timestamp=2026-11-04T06:31:54.938Z monotonic_ms=144302 SAMPLE temperature=33.1 humidity=39.8
+timestamp=2026-11-04T06:31:54.939Z monotonic_ms=144302 ALERT type=TEMP_SPIKE value=15.4 threshold=5.0
+timestamp=2026-11-04T06:31:55.438Z monotonic_ms=144802 SAMPLE temperature=40.6 humidity=51.5
+timestamp=2026-11-04T06:31:55.438Z monotonic_ms=144802 ALERT type=TEMP_HIGH value=40.6 threshold=40.0
+timestamp=2026-11-04T06:31:55.439Z monotonic_ms=144802 ALERT type=TEMP_SPIKE value=7.5 threshold=5.0
+timestamp=2026-11-04T06:31:55.937Z monotonic_ms=145302 SAMPLE temperature=27.0 humidity=42.4
+timestamp=2026-11-04T06:31:55.938Z monotonic_ms=145302 ALERT type=TEMP_SPIKE value=13.6 threshold=5.0
+timestamp=2026-11-04T06:31:56.438Z monotonic_ms=145802 SAMPLE temperature=31.2 humidity=61.0
+timestamp=2026-11-04T06:31:56.939Z monotonic_ms=146302 SAMPLE temperature=19.7 humidity=42.4
+timestamp=2026-11-04T06:31:56.940Z monotonic_ms=146302 ALERT type=TEMP_SPIKE value=11.5 threshold=5.0
+timestamp=2026-11-04T06:31:57.437Z monotonic_ms=146802 SAMPLE temperature=28.1 humidity=40.3
+timestamp=2026-11-04T06:31:57.438Z monotonic_ms=146802 ALERT type=TEMP_SPIKE value=8.4 threshold=5.0
+timestamp=2026-11-04T06:31:57.938Z monotonic_ms=147302 SAMPLE temperature=18.1 humidity=46.2
+timestamp=2026-11-04T06:31:57.938Z monotonic_ms=147302 ALERT type=TEMP_SPIKE value=10.0 threshold=5.0
+timestamp=2026-11-04T06:31:58.439Z monotonic_ms=147802 SAMPLE temperature=23.9 humidity=37.8
+timestamp=2026-11-04T06:31:58.440Z monotonic_ms=147802 ALERT type=TEMP_SPIKE value=5.8 threshold=5.0
+timestamp=2026-11-04T06:31:58.938Z monotonic_ms=148302 SAMPLE temperature=17.3 humidity=82.5
+timestamp=2026-11-04T06:31:58.938Z monotonic_ms=148302 ALERT type=HUMID_HIGH value=82.5 threshold=80.0
+timestamp=2026-11-04T06:31:58.939Z monotonic_ms=148302 ALERT type=TEMP_SPIKE value=6.6 threshold=5.0
+timestamp=2026-11-04T06:31:59.438Z monotonic_ms=148802 SAMPLE temperature=20.0 humidity=57.1
+timestamp=2026-11-04T06:31:59.937Z monotonic_ms=149302 SAMPLE temperature=21.9 humidity=72.6
+timestamp=2026-11-04T06:32:00.438Z monotonic_ms=149802 SAMPLE temperature=29.7 humidity=32.4
+timestamp=2026-11-04T06:32:00.438Z monotonic_ms=149802 ALERT type=TEMP_SPIKE value=7.8 threshold=5.0
+timestamp=2026-11-04T06:32:00.938Z monotonic_ms=150302 SAMPLE temperature=23.3 humidity=61.9
+timestamp=2026-11-04T06:32:00.938Z monotonic_ms=150302 ALERT type=TEMP_SPIKE value=6.4 threshold=5.0
+timestamp=2026-11-04T06:32:01.437Z monotonic_ms=150802 SAMPLE temperature=33.5 humidity=80.8
+timestamp=2026-11-04T06:32:01.438Z monotonic_ms=150802 ALERT type=HUMID_HIGH value=80.8 threshold=80.0
+timestamp=2026-11-04T06:32:01.438Z monotonic_ms=150802 ALERT type=TEMP_SPIKE value=10.2 threshold=5.0
+timestamp=2026-11-04T06:32:01.938Z monotonic_ms=151302 SAMPLE temperature=42.9 humidity=80.7
+timestamp=2026-11-04T06:32:01.939Z monotonic_ms=151302 ALERT type=TEMP_HIGH value=42.9 threshold=40.0
+timestamp=2026-11-04T06:32:01.939Z monotonic_ms=151302 ALERT type=HUMID_HIGH value=80.7 threshold=80.0
+timestamp=2026-11-04T06:32:01.939Z monotonic_ms=151302 ALERT type=TEMP_SPIKE value=9.4 threshold=5.0
+timestamp=2026-11-04T06:32:02.438Z monotonic_ms=151802 SAMPLE temperature=16.4 humidity=84.4
+timestamp=2026-11-04T06:32:02.438Z monotonic_ms=151802 ALERT type=HUMID_HIGH value=84.4 threshold=80.0
+timestamp=2026-11-04T06:32:02.439Z monotonic_ms=151802 ALERT type=TEMP_SPIKE value=26.5 threshold=5.0
+timestamp=2026-11-04T06:32:02.938Z monotonic_ms=152302 SAMPLE temperature=28.0 humidity=75.5
+timestamp=2026-11-04T06:32:02.938Z monotonic_ms=152302 ALERT type=TEMP_SPIKE value=11.6 threshold=5.0
+timestamp=2026-11-04T06:32:03.437Z monotonic_ms=152802 SAMPLE temperature=35.5 humidity=42.9
+timestamp=2026-11-04T06:32:03.438Z monotonic_ms=152802 ALERT type=TEMP_SPIKE value=7.5 threshold=5.0
+timestamp=2026-11-04T06:32:03.937Z monotonic_ms=153302 SAMPLE temperature=15.0 humidity=83.7
+timestamp=2026-11-04T06:32:03.937Z monotonic_ms=153302 ALERT type=HUMID_HIGH value=83.7 threshold=80.0
+timestamp=2026-11-04T06:32:03.938Z monotonic_ms=153302 ALERT type=TEMP_SPIKE value=20.5 threshold=5.0
+timestamp=2026-11-04T06:32:04.438Z monotonic_ms=153802 SAMPLE temperature=26.6 humidity=43.9
+timestamp=2026-11-04T06:32:04.438Z monotonic_ms=153802 ALERT type=TEMP_SPIKE value=11.6 threshold=5.0
+timestamp=2026-11-04T06:32:04.938Z monotonic_ms=154303 SAMPLE temperature=41.5 humidity=44.8
+timestamp=2026-11-04T06:32:04.939Z monotonic_ms=154303 ALERT type=TEMP_HIGH value=41.5 threshold=40.0
+timestamp=2026-11-04T06:32:04.939Z monotonic_ms=154303 ALERT type=TEMP_SPIKE value=14.9 threshold=5.0
+timestamp=2026-11-04T06:32:05.438Z monotonic_ms=154803 SAMPLE temperature=35.9 humidity=41.2
+timestamp=2026-11-04T06:32:05.438Z monotonic_ms=154803 ALERT type=TEMP_SPIKE value=5.6 threshold=5.0
+timestamp=2026-11-04T06:32:05.938Z monotonic_ms=155303 SAMPLE temperature=36.3 humidity=33.6
+timestamp=2026-11-04T06:32:06.438Z monotonic_ms=155803 SAMPLE temperature=25.9 humidity=39.8
+timestamp=2026-11-04T06:32:06.439Z monotonic_ms=155803 ALERT type=TEMP_SPIKE value=10.4 threshold=5.0
+timestamp=2026-11-04T06:32:06.938Z monotonic_ms=156304 SAMPLE temperature=34.7 humidity=31.4
+timestamp=2026-11-04T06:32:06.939Z monotonic_ms=156304 ALERT type=TEMP_SPIKE value=8.8 threshold=5.0
+timestamp=2026-11-04T06:32:07.440Z monotonic_ms=156805 SAMPLE temperature=26.2 humidity=49.8
+timestamp=2026-11-04T06:32:07.440Z monotonic_ms=156805 ALERT type=TEMP_SPIKE value=8.5 threshold=5.0
+timestamp=2026-11-04T06:32:07.940Z monotonic_ms=157305 SAMPLE temperature=17.4 humidity=50.0
+timestamp=2026-11-04T06:32:07.941Z monotonic_ms=157305 ALERT type=TEMP_SPIKE value=8.8 threshold=5.0
+timestamp=2026-11-04T06:32:08.441Z monotonic_ms=157806 SAMPLE temperature=26.2 humidity=88.2
+timestamp=2026-11-04T06:32:08.442Z monotonic_ms=157806 ALERT type=HUMID_HIGH value=88.2 threshold=80.0
+timestamp=2026-11-04T06:32:08.442Z monotonic_ms=157806 ALERT type=TEMP_SPIKE value=8.8 threshold=5.0
+timestamp=2026-11-04T06:32:08.942Z monotonic_ms=158307 SAMPLE temperature=26.3 humidity=82.1
+timestamp=2026-11-04T06:32:08.942Z monotonic_ms=158307 ALERT type=HUMID_HIGH value=82.1 threshold=80.0
+timestamp=2026-11-04T06:32:09.442Z monotonic_ms=158808 SAMPLE temperature=24.3 humidity=65.7
+timestamp=2026-11-04T06:32:09.944Z monotonic_ms=159309 SAMPLE temperature=29.1 humidity=50.0
+timestamp=2026-11-04T06:32:10.445Z monotonic_ms=159809 SAMPLE temperature=36.6 humidity=78.7
+timestamp=2026-11-04T06:32:10.445Z monotonic_ms=159809 ALERT type=TEMP_SPIKE value=7.5 threshold=5.0
+timestamp=2026-11-04T06:32:10.945Z monotonic_ms=160309 ALERT type=TEMP_SPIKE value=14.7 threshold=5.0
+timestamp=2026-11-04T06:32:10.945Z monotonic_ms=160309 SAMPLE temperature=21.9 humidity=37.1
+timestamp=2026-11-04T06:32:11.446Z monotonic_ms=160810 SAMPLE temperature=23.5 humidity=77.8
+timestamp=2026-11-04T06:32:11.946Z monotonic_ms=161310 SAMPLE temperature=40.9 humidity=44.2
+timestamp=2026-11-04T06:32:11.947Z monotonic_ms=161310 ALERT type=TEMP_HIGH value=40.9 threshold=40.0
+timestamp=2026-11-04T06:32:11.947Z monotonic_ms=161310 ALERT type=TEMP_SPIKE value=17.4 threshold=5.0
+timestamp=2026-11-04T06:32:12.447Z monotonic_ms=161810 SAMPLE temperature=20.7 humidity=75.1
+timestamp=2026-11-04T06:32:12.448Z monotonic_ms=161810 ALERT type=TEMP_SPIKE value=20.2 threshold=5.0
+timestamp=2026-11-04T06:32:12.946Z monotonic_ms=162310 SAMPLE temperature=24.5 humidity=59.5
+timestamp=2026-11-04T06:32:13.446Z monotonic_ms=162810 SAMPLE temperature=41.2 humidity=79.6
+timestamp=2026-11-04T06:32:13.446Z monotonic_ms=162810 ALERT type=TEMP_HIGH value=41.2 threshold=40.0
+timestamp=2026-11-04T06:32:13.446Z monotonic_ms=162810 ALERT type=TEMP_SPIKE value=16.7 threshold=5.0
+timestamp=2026-11-04T06:32:13.946Z monotonic_ms=163311 SAMPLE temperature=22.4 humidity=78.2
+timestamp=2026-11-04T06:32:13.947Z monotonic_ms=163311 ALERT type=TEMP_SPIKE value=18.8 threshold=5.0
+timestamp=2026-11-04T06:32:14.446Z monotonic_ms=163812 SAMPLE temperature=22.1 humidity=48.0
+timestamp=2026-11-04T06:32:14.949Z monotonic_ms=164313 SAMPLE temperature=23.6 humidity=36.5
+timestamp=2026-11-04T06:32:15.451Z monotonic_ms=164814 SAMPLE temperature=33.7 humidity=80.2
+timestamp=2026-11-04T06:32:15.451Z monotonic_ms=164814 ALERT type=HUMID_HIGH value=80.2 threshold=80.0
+timestamp=2026-11-04T06:32:15.452Z monotonic_ms=164814 ALERT type=TEMP_SPIKE value=10.1 threshold=5.0
+timestamp=2026-11-04T06:32:15.950Z monotonic_ms=165314 SAMPLE temperature=25.3 humidity=68.7
+timestamp=2026-11-04T06:32:15.951Z monotonic_ms=165314 ALERT type=TEMP_SPIKE value=8.4 threshold=5.0
+timestamp=2026-11-04T06:32:16.451Z monotonic_ms=165814 SAMPLE temperature=32.1 humidity=59.4
+timestamp=2026-11-04T06:32:16.452Z monotonic_ms=165814 ALERT type=TEMP_SPIKE value=6.8 threshold=5.0
+timestamp=2026-11-04T06:32:16.949Z monotonic_ms=166314 SAMPLE temperature=21.6 humidity=84.3
+timestamp=2026-11-04T06:32:16.950Z monotonic_ms=166314 ALERT type=HUMID_HIGH value=84.3 threshold=80.0
+timestamp=2026-11-04T06:32:16.950Z monotonic_ms=166314 ALERT type=TEMP_SPIKE value=10.5 threshold=5.0
+timestamp=2026-11-04T06:32:17.449Z monotonic_ms=166814 SAMPLE temperature=16.2 humidity=85.5
+timestamp=2026-11-04T06:32:17.449Z monotonic_ms=166814 ALERT type=HUMID_HIGH value=85.5 threshold=80.0
+timestamp=2026-11-04T06:32:17.450Z monotonic_ms=166814 ALERT type=TEMP_SPIKE value=5.4 threshold=5.0
+timestamp=2026-11-04T06:32:17.951Z monotonic_ms=167315 SAMPLE temperature=21.9 humidity=61.2
+timestamp=2026-11-04T06:32:17.951Z monotonic_ms=167315 ALERT type=TEMP_SPIKE value=5.7 threshold=5.0
+timestamp=2026-11-04T06:32:18.453Z monotonic_ms=167816 SAMPLE temperature=18.0 humidity=44.5
+timestamp=2026-11-04T06:32:18.952Z monotonic_ms=168316 SAMPLE temperature=39.4 humidity=87.3
+timestamp=2026-11-04T06:32:18.953Z monotonic_ms=168316 ALERT type=HUMID_HIGH value=87.3 threshold=80.0
+timestamp=2026-11-04T06:32:18.954Z monotonic_ms=168316 ALERT type=TEMP_SPIKE value=21.4 threshold=5.0
+timestamp=2026-11-04T06:32:19.452Z monotonic_ms=168817 SAMPLE temperature=41.8 humidity=33.4
+timestamp=2026-11-04T06:32:19.453Z monotonic_ms=168817 ALERT type=TEMP_HIGH value=41.8 threshold=40.0
+timestamp=2026-11-04T06:32:19.952Z monotonic_ms=169317 SAMPLE temperature=41.9 humidity=41.6
+timestamp=2026-11-04T06:32:19.952Z monotonic_ms=169317 ALERT type=TEMP_HIGH value=41.9 threshold=40.0
+timestamp=2026-11-04T06:32:20.453Z monotonic_ms=169818 SAMPLE temperature=29.2 humidity=61.5
+timestamp=2026-11-04T06:32:20.454Z monotonic_ms=169818 ALERT type=TEMP_SPIKE value=12.7 threshold=5.0
+timestamp=2026-11-04T06:32:20.954Z monotonic_ms=170318 SAMPLE temperature=34.7 humidity=51.7
+timestamp=2026-11-04T06:32:20.955Z monotonic_ms=170318 ALERT type=TEMP_SPIKE value=5.5 threshold=5.0
+timestamp=2026-11-04T06:32:21.455Z monotonic_ms=170818 SAMPLE temperature=40.7 humidity=88.8
+timestamp=2026-11-04T06:32:21.456Z monotonic_ms=170818 ALERT type=TEMP_HIGH value=40.7 threshold=40.0
+timestamp=2026-11-04T06:32:21.456Z monotonic_ms=170818 ALERT type=HUMID_HIGH value=88.8 threshold=80.0
+timestamp=2026-11-04T06:32:21.456Z monotonic_ms=170818 ALERT type=TEMP_SPIKE value=6.0 threshold=5.0
+timestamp=2026-11-04T06:32:21.953Z monotonic_ms=171318 SAMPLE temperature=20.0 humidity=75.7
+timestamp=2026-11-04T06:32:21.953Z monotonic_ms=171318 ALERT type=TEMP_SPIKE value=20.7 threshold=5.0
+timestamp=2026-11-04T06:32:22.453Z monotonic_ms=171819 SAMPLE temperature=17.4 humidity=42.1
+timestamp=2026-11-04T06:32:22.955Z monotonic_ms=172319 ALERT type=HUMID_HIGH value=80.4 threshold=80.0
+timestamp=2026-11-04T06:32:22.955Z monotonic_ms=172319 SAMPLE temperature=37.5 humidity=80.4
+timestamp=2026-11-04T06:32:22.956Z monotonic_ms=172319 ALERT type=TEMP_SPIKE value=20.1 threshold=5.0
+timestamp=2026-11-04T06:32:23.455Z monotonic_ms=172819 ALERT type=TEMP_HIGH value=44.1 threshold=40.0
+timestamp=2026-11-04T06:32:23.455Z monotonic_ms=172819 SAMPLE temperature=44.1 humidity=76.6
+timestamp=2026-11-04T06:32:23.456Z monotonic_ms=172819 ALERT type=TEMP_SPIKE value=6.6 threshold=5.0
+timestamp=2026-11-04T06:32:23.957Z monotonic_ms=173319 ALERT type=TEMP_SPIKE value=18.3 threshold=5.0
+timestamp=2026-11-04T06:32:23.958Z monotonic_ms=173319 SAMPLE temperature=25.8 humidity=31.9
+timestamp=2026-11-04T06:32:24.455Z monotonic_ms=173820 ALERT type=TEMP_SPIKE value=9.6 threshold=5.0
+timestamp=2026-11-04T06:32:24.456Z monotonic_ms=173820 SAMPLE temperature=16.2 humidity=35.3
+timestamp=2026-11-04T06:32:24.955Z monotonic_ms=174321 SAMPLE temperature=18.2 humidity=65.5
+timestamp=2026-11-04T06:32:25.457Z monotonic_ms=174821 SAMPLE temperature=37.8 humidity=67.7
+timestamp=2026-11-04T06:32:25.457Z monotonic_ms=174821 ALERT type=TEMP_SPIKE value=19.6 threshold=5.0
+timestamp=2026-11-04T06:32:25.956Z monotonic_ms=175321 SAMPLE temperature=15.8 humidity=47.8
+timestamp=2026-11-04T06:32:25.956Z monotonic_ms=175321 ALERT type=TEMP_SPIKE value=22.0 threshold=5.0
+timestamp=2026-11-04T06:32:26.456Z monotonic_ms=175821 SAMPLE temperature=34.6 humidity=62.9
+timestamp=2026-11-04T06:32:26.457Z monotonic_ms=175821 ALERT type=TEMP_SPIKE value=18.8 threshold=5.0
+timestamp=2026-11-04T06:32:26.957Z monotonic_ms=176321 SAMPLE temperature=44.0 humidity=63.4
+timestamp=2026-11-04T06:32:26.957Z monotonic_ms=176321 ALERT type=TEMP_HIGH value=44.0 threshold=40.0
+timestamp=2026-11-04T06:32:26.957Z monotonic_ms=176321 ALERT type=TEMP_SPIKE value=9.4 threshold=5.0
+timestamp=2026-11-04T06:32:27.456Z monotonic_ms=176821 SAMPLE temperature=23.6 humidity=32.3
+timestamp=2026-11-04T06:32:27.457Z monotonic_ms=176821 ALERT type=TEMP_SPIKE value=20.4 threshold=5.0
+timestamp=2026-11-04T06:32:27.957Z monotonic_ms=177321 SAMPLE temperature=44.9 humidity=68.0
+timestamp=2026-11-04T06:32:27.957Z monotonic_ms=177321 ALERT type=TEMP_HIGH value=44.9 threshold=40.0
+timestamp=2026-11-04T06:32:27.957Z monotonic_ms=177321 ALERT type=TEMP_SPIKE value=21.3 threshold=5.0
+timestamp=2026-11-04T06:32:28.457Z monotonic_ms=177821 SAMPLE temperature=37.3 humidity=83.8
+timestamp=2026-11-04T06:32:28.457Z monotonic_ms=177821 ALERT type=HUMID_HIGH value=83.8 threshold=80.0
+timestamp=2026-11-04T06:32:28.457Z monotonic_ms=177821 ALERT type=TEMP_SPIKE value=7.6 threshold=5.0
+timestamp=2026-11-04T06:32:28.956Z monotonic_ms=178322 SAMPLE temperature=34.3 humidity=71.0
+timestamp=2026-11-04T06:32:29.458Z monotonic_ms=178822 SAMPLE temperature=37.3 humidity=32.0
+timestamp=2026-11-04T06:32:29.958Z monotonic_ms=179323 SAMPLE temperature=44.1 humidity=33.1
+timestamp=2026-11-04T06:32:29.959Z monotonic_ms=179323 ALERT type=TEMP_HIGH value=44.1 threshold=40.0
+timestamp=2026-11-04T06:32:29.959Z monotonic_ms=179323 ALERT type=TEMP_SPIKE value=6.8 threshold=5.0
+timestamp=2026-11-04T06:32:30.457Z monotonic_ms=179823 SAMPLE temperature=37.8 humidity=62.5
+timestamp=2026-11-04T06:32:30.458Z monotonic_ms=179823 ALERT type=TEMP_SPIKE value=6.3 threshold=5.0
+timestamp=2026-11-04T06:32:30.958Z monotonic_ms=180323 SAMPLE temperature=37.2 humidity=33.6
+timestamp=2026-11-04T06:32:31.459Z monotonic_ms=180823 SAMPLE temperature=18.8 humidity=88.6
+timestamp=2026-11-04T06:32:31.459Z monotonic_ms=180823 ALERT type=HUMID_HIGH value=88.6 threshold=80.0
+timestamp=2026-11-04T06:32:31.460Z monotonic_ms=180823 ALERT type=TEMP_SPIKE value=18.4 threshold=5.0
+timestamp=2026-11-04T06:32:31.960Z monotonic_ms=181324 SAMPLE temperature=18.2 humidity=46.1
+timestamp=2026-11-04T06:32:32.460Z monotonic_ms=181824 SAMPLE temperature=43.9 humidity=40.2
+timestamp=2026-11-04T06:32:32.460Z monotonic_ms=181824 ALERT type=TEMP_HIGH value=43.9 threshold=40.0
+timestamp=2026-11-04T06:32:32.461Z monotonic_ms=181824 ALERT type=TEMP_SPIKE value=25.7 threshold=5.0
+timestamp=2026-11-04T06:32:32.960Z monotonic_ms=182324 SAMPLE temperature=22.9 humidity=80.5
+timestamp=2026-11-04T06:32:32.961Z monotonic_ms=182324 ALERT type=HUMID_HIGH value=80.5 threshold=80.0
+timestamp=2026-11-04T06:32:32.961Z monotonic_ms=182324 ALERT type=TEMP_SPIKE value=21.0 threshold=5.0
+timestamp=2026-11-04T06:32:33.460Z monotonic_ms=182825 SAMPLE temperature=20.9 humidity=64.1

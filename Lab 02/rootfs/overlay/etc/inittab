@@ -1,0 +1,5 @@
+# BusyBox init sequence for Embedded Linux LAB-02.
+::sysinit:/etc/init.d/rcS
+::askfirst:-/bin/sh
+::ctrlaltdel:/sbin/reboot
+::shutdown:/bin/umount -a -r
